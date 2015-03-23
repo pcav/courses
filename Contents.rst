@@ -42,7 +42,7 @@ Basic QGIS course content
 
 * Analysis
 
-Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the QGIS interface with additional tools such as GRASS. Show only the “preferred” solution, not all possible alternatives as it would most likely confuse participants.  Main focus on generic tools which are most frequently used. These tools should be examples for how things can be done (as there is not enough time to go through all kinds of tools). 
+Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the QGIS interface with additional tools such as GRASS. Show only the “preferred” solution, not all possible alternatives as it would most likely confuse participants.  Main focus on generic tools which are most frequently used. These tools should be examples for how things can be done (as there is not enough time to go through all kinds of tools).
 
   * Basic vector analyses
   
@@ -65,3 +65,25 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
 
 Advanced Course on Geodatabases (PostgreSQL and PostGIS)
 =========================================================
+
+Aimed at those who need to learn how to use a geodatabase of complex geographic data (do not focus on database setup and management). The course covers the use of PostGIS’ many database functions that allow for complex geoprocessing to be carried out within the database and displayed in real-time. It is suggested to have basic knowledge of the SQL language.
+
+* Advantages of using a database for GIS
+* Introduction to the Open Source RDBMS, PostgreSQL
+* Schemas, Tables, Views, and Functions
+* Introduction to PostGIS (and Open Geospatial Consortium standards)
+* Geodatabases: structure and format of the data
+* Creation of a geodatabase and the use of the GIS template
+* Command line administration: psql
+* Two graphical front-ends: QGIS and pgAdmin III
+* PostGIS and QGIS: Importing shapefiles, digitizing, queries, plugins for advanced queries
+* Advanced geoprocessing functions
+* PostGIS rasters
+* Topology support
+* Interacting with PostGIS using a simple Python-plugin
+
+  * Run plugin builder
+  * Modify UI in QTDesigner
+  * Define a connection and run a simple query (possibly with one (hard coded) variable from UI): https://pypi.python.org/pypi/psycopg2, https://pypi.python.org/pypi/py-postgresql
+  
+  .. note:: 3-4

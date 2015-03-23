@@ -29,15 +29,39 @@ Basic QGIS course content
   * Add background maps (from AR5, N50… + naturbase…) to GPS unit
 
 * Vector digitizing and editing attributes using «Custom Forms»
+* Data from the web
+
+  * Discover data (MetaSearch)
+  * Add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps
+
+* Raster data
+
+  * Properties and theming
+  * Coordinate reference systems management and mosaics
+  * Georeferencing (please provide local data?)
 
 * Analysis
+
+Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the QGIS interface with additional tools such as GRASS. Show only the “preferred” solution, not all possible alternatives as it would most likely confuse participants.  Main focus on generic tools which are most frequently used. These tools should be examples for how things can be done (as there is not enough time to go through all kinds of tools). 
 
   * Basic vector analyses
   
     * In QGIS: point sampling (Point Sampling Tool), dissolve, buffer, overlay, attribute management, etc.
     * In PostGIS: running modified template queries
 
-Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the QGIS interface with additional tools such as GRASS. Show only the “preferred” solution, not all possible alternatives as it would most likely confuse participants.  Main focus on generic tools which are most frequently used. These tools should be examples for how things can be done (as there is not enough time to go through all kinds of tools). 
+* Raster data analysis
+
+  * using the GRASS plugin
+  * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
+  * Raster and vector buffers, distance analyses, least cost paths
+  * Reclassification of rasters, map algebra
+  * Zonal statistics
+
+* Simple and Advanced layouts/printing
+* Data publishing
+
+  * QGIS web server interface (OWS)
+  * qgis2leaf-plugin (Simple interactive maps on the web) 
 
 Advanced Course on Geodatabases (PostgreSQL and PostGIS)
 =========================================================

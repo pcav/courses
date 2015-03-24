@@ -2,6 +2,10 @@ Basic QGIS course
 ===========================
 
 * Introduction to the QGIS software
+
+  * interface, customization
+  * resources: website, mailing lists
+  
 * Plugins management
 * Vector data
 

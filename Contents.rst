@@ -10,10 +10,9 @@ Basic QGIS course
 * Plugins management
 * Vector data
 
-  * Properties
+  * properties
   * import/export
   * conversion between formats (here esp. add Comma Delimited Text, PostGIS layers [Connections to PostGIS databases will be available ``Import_QGIS_Settings.bat``] and data from ``R:\GeoSpatialData``)
-  * Basic SQL (for feature selection)
 
 * Projections handling and conversion between CRS; local CRSs [info form locals]
 * Vector theming (Symbology?) and labels
@@ -21,7 +20,11 @@ Basic QGIS course
   * manually (classified, gradual, random)
   * using templates (SLD, QML, QLR)
  
-* Tables of attributes. Turn a table into a geographic layer
+* Tables of attributes
+
+  * basic SQL (for feature selection)
+  * turn a table into a geographic layer
+
 * Actions
 * Usage of template projects [check the available ``Import_QGIS_Settings.bat`` with refinements]
 * How to use GPS units in QGIS

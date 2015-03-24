@@ -13,11 +13,11 @@ Basic QGIS course
 
   * properties
   * import/export
-  * conversion between formats (here esp. add Comma Delimited Text, PostGIS layers [Connections to PostGIS databases will be available ``Import_QGIS_Settings.bat``] and data from ``R:\GeoSpatialData``)
-  * create single users for database access
+  * conversion between formats (here esp. add Comma Delimited Text, PostGIS layers [#Connections to PostGIS databases will be available ``Import_QGIS_Settings.bat``] and #data from ``R:\GeoSpatialData``)
+  * #create single users for database access
 
-* Projections handling and conversion between CRS; local CRSs [info form locals]
-* Vector theming (Symbology?) and labels
+* Projections handling and conversion between CRS; local CRSs [#info form locals]
+* Vector theming, symbology and labels
 
   * manually (classified, gradual, random)
   * using templates (SLD, QML, QLR)
@@ -28,7 +28,7 @@ Basic QGIS course
   * turn a table into a geographic layer
 
 * Actions
-* Usage of template projects [check the available ``Import_QGIS_Settings.bat`` with refinements]
+* Usage of template projects [#check the available ``Import_QGIS_Settings.bat`` with refinements]
 * How to use GPS units in QGIS
 
   * convert data (”waypoints”, ”tracks”, ”routes”) from GPS to GPX
@@ -47,7 +47,7 @@ Basic QGIS course
 * Data from the web
 
   * discover data (*MetaSearch*: **GeoNorge**)
-  * add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps [list available through ``Import_QGIS_Settings.bat``]
+  * add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps [#list available through ``Import_QGIS_Settings.bat``]
 
 * Raster data
 
@@ -64,17 +64,17 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
 * Basic vector analyses
 
   * in QGIS: point sampling (Point Sampling Tool), dissolve, buffer, overlay, attribute management, etc.
-  * in PostGIS: running modified template queries
+  * in PostGIS: running modified #template queries
 
 * Raster data analysis
 
-  * using the GRASS plugin [DB hopefully available; support uncertain]
+  * using the GRASS plugin [#DB hopefully available; support uncertain]
   * geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
 
 Printing
 ----------
 
-* Simple and Advanced layouts/printing [samples available?]
+* Simple and Advanced layouts/printing [#samples available?]
 
   * Atlas
   * how to export (best formats)
@@ -84,19 +84,21 @@ Advanced Course
 
 * Duration: 2 days
 
-* Analysis
+Advanced analysis
+------------------
 
-  * various backends available
-  * raster
+* Various backends available
+* Raster
+
+  * using the GRASS plugin [#DB hopefully available; support uncertain]
+  * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
+  * Distance analyses?
+  * reclassification of rasters, map algebra
+  * zonal statistics
   
-    * using the GRASS plugin [DB hopefully available; support uncertain]
-    * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
-    * (Distance analyses?)
-    * reclassification of rasters, map algebra
-    * Zonal statistics
-    
-  * use R within Processing [please provide sample scripts and data]
-  * modelling through graphical interface and command line
+* Use R within Processing [#please provide sample scripts and data]
+* Modelling through graphical interface and command line
+* Automatic land use classification (quick, if we have time; #sample images needed)
 
 PostGIS
 --------
@@ -121,15 +123,20 @@ Web
 
 * Data publishing
 
-  * QGIS web server interface (OWS) [QGIS Server available]
+  * QGIS web server interface (OWS) [#QGIS Server available]
   * simple interactive maps on the web (*qgis2leaf* plugin?)
   * mention LizMap
 
 Python
 -------
 
-* Interacting with PostGIS using a simple Python-plugin
+* Interacting with PostGIS using a #simple Python-plugin
 
   * Run plugin builder
   * Modify UI in QTDesigner
   * Define a connection and run a simple query (possibly with one (hard coded) variable from UI): https://pypi.python.org/pypi/psycopg2, https://pypi.python.org/pypi/py-postgresql
+
+Note
+=====
+
+#data required from the locals

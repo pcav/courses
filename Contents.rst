@@ -87,6 +87,18 @@ Advanced Course
 
 * Duration: 2 days
 
+* Analysis
+
+  * raster
+  
+    * using the GRASS plugin [DB hopefully available; support uncertain]
+    * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
+    * (Distance analyses?)
+    * Reclassification of rasters, map algebra
+    * Zonal statistics
+  
+  * modelling through graphical interface and command line
+
 Aimed at those who need to learn how to use a geodatabase of complex geographic data (do not focus on database setup and management). The course covers the use of PostGIS’ many database functions that allow for complex geoprocessing to be carried out within the database and displayed in real-time. It is suggested to have basic knowledge of the SQL language.
 
 * Advantages of using a database for GIS
@@ -101,25 +113,14 @@ Aimed at those who need to learn how to use a geodatabase of complex geographic 
 * Advanced geoprocessing functions
 * PostGIS rasters
 * Topology support
-* Interacting with PostGIS using a simple Python-plugin
-
-  * Run plugin builder
-  * Modify UI in QTDesigner
-  * Define a connection and run a simple query (possibly with one (hard coded) variable from UI): https://pypi.python.org/pypi/psycopg2, https://pypi.python.org/pypi/py-postgresql
-
-* Analysis
-
-  * raster
-  
-    * using the GRASS plugin [DB hopefully available; support uncertain]
-    * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
-    * (Distance analyses?)
-    * Reclassification of rasters, map algebra
-    * Zonal statistics
-  
-  * modelling through graphical interface and command line
 
 * Data publishing
 
   * QGIS web server interface (OWS) [QGIS Server available]
   * Simple interactive maps on the web (*qgis2leaf* plugin?) 
+
+* Interacting with PostGIS using a simple Python-plugin
+
+  * Run plugin builder
+  * Modify UI in QTDesigner
+  * Define a connection and run a simple query (possibly with one (hard coded) variable from UI): https://pypi.python.org/pypi/psycopg2, https://pypi.python.org/pypi/py-postgresql

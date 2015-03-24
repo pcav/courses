@@ -73,14 +73,15 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
   * (Distance analyses?)
   * Reclassification of rasters, map algebra
   * Zonal statistics
-  * Modelling through graphical interface and command line (advanced?)
 
+Printing
+----------
 * Simple and Advanced layouts/printing [samples available?]
 
   * Atlas
   * how to export (best formats)
 
-Advanced Course on Geodatabases (PostgreSQL and PostGIS)
+Advanced Course
 =========================================================
 
 Aimed at those who need to learn how to use a geodatabase of complex geographic data (do not focus on database setup and management). The course covers the use of PostGIS’ many database functions that allow for complex geoprocessing to be carried out within the database and displayed in real-time. It is suggested to have basic knowledge of the SQL language.
@@ -103,7 +104,12 @@ Aimed at those who need to learn how to use a geodatabase of complex geographic 
   * Modify UI in QTDesigner
   * Define a connection and run a simple query (possibly with one (hard coded) variable from UI): https://pypi.python.org/pypi/psycopg2, https://pypi.python.org/pypi/py-postgresql
 
-* Data publishing (advanced?)
+* Analysis
+
+  * raster
+  * modelling through graphical interface and command line
+
+* Data publishing
 
   * QGIS web server interface (OWS) [QGIS Server available]
   * Simple interactive maps on the web (*qgis2leaf* plugin?) 

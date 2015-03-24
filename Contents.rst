@@ -110,6 +110,13 @@ Aimed at those who need to learn how to use a geodatabase of complex geographic 
 * Analysis
 
   * raster
+  
+    * using the GRASS plugin [DB hopefully available; support uncertain]
+    * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
+    * (Distance analyses?)
+    * Reclassification of rasters, map algebra
+    * Zonal statistics
+  
   * modelling through graphical interface and command line
 
 * Data publishing

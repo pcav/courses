@@ -112,7 +112,7 @@ Aimed at those who need to learn how to use a geodatabase of complex geographic 
 * PostGIS and QGIS: Importing shapefiles, digitizing, queries, plugins for advanced queries
 * Advanced geoprocessing functions
 * PostGIS rasters
-* Topology support
+* Topology support (just mention)
 
 * Data publishing
 

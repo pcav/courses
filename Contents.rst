@@ -1,6 +1,7 @@
 Basic QGIS course
 ===========================
 
+* Duration: 2 days
 * Introduction to the QGIS software
 
   * interface, customization
@@ -50,9 +51,10 @@ Basic QGIS course
 
 * Raster data
 
-  * Properties and theming
+  * properties and theming
   * Coordinate reference systems management and mosaics
-  * Georeferencing (please provide local data?)
+  * conversion between rasters and vectors?
+  * Georeferencing (please provide local data?) [not enough time?]
 
 Analysis
 ----------------
@@ -74,10 +76,9 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
   * Modelling through graphical interface and command line (advanced?)
 
 * Simple and Advanced layouts/printing [samples available?]
-* Data publishing (advanced?)
 
-  * QGIS web server interface (OWS) [QGIS Server available]
-  * Simple interactive maps on the web (*qgis2leaf* plugin?) 
+  * Atlas
+  * how to export (best formats)
 
 Advanced Course on Geodatabases (PostgreSQL and PostGIS)
 =========================================================
@@ -101,3 +102,8 @@ Aimed at those who need to learn how to use a geodatabase of complex geographic 
   * Run plugin builder
   * Modify UI in QTDesigner
   * Define a connection and run a simple query (possibly with one (hard coded) variable from UI): https://pypi.python.org/pypi/psycopg2, https://pypi.python.org/pypi/py-postgresql
+
+* Data publishing (advanced?)
+
+  * QGIS web server interface (OWS) [QGIS Server available]
+  * Simple interactive maps on the web (*qgis2leaf* plugin?) 

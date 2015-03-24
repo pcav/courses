@@ -31,12 +31,12 @@ Basic QGIS course
 * Usage of template projects [check the available ``Import_QGIS_Settings.bat`` with refinements]
 * How to use GPS units in QGIS
 
-  * Convert data (”waypoints”, ”tracks”, ”routes”) from GPS to GPX
-  * Add GPX
-  * Project GPS data (WGS84) to UTM (EPSG:25833)
-  * Convert data (”points”, ”lines”) from GIS to GPS (GPX)
-  * Save data on GPS unit
-  * Add background maps (from AR5, N50… + naturbase…) to GPS unit
+  * convert data (”waypoints”, ”tracks”, ”routes”) from GPS to GPX
+  * cdd GPX
+  * project GPS data (WGS84) to UTM (EPSG:25833)
+  * convert data (”points”, ”lines”) from GIS to GPS (GPX)
+  * save data on GPS unit
+  * add background maps (from AR5, N50… + naturbase…) to GPS unit
 
 * Vector digitizing
 
@@ -46,15 +46,15 @@ Basic QGIS course
 * Editing attributes using «Custom Forms»
 * Data from the web
 
-  * Discover data (*MetaSearch*: **GeoNorge**)
-  * Add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps [list available through ``Import_QGIS_Settings.bat``]
+  * discover data (*MetaSearch*: **GeoNorge**)
+  * add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps [list available through ``Import_QGIS_Settings.bat``]
 
 * Raster data
 
   * properties and theming
-  * Coordinate reference systems management and mosaics
+  * coordinate reference systems management and mosaics
   * conversion between rasters and vectors?
-  * Georeferencing (just mention the possibility)
+  * georeferencing (just mention the possibility)
 
 Analysis
 ----------------
@@ -63,16 +63,13 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
 
 * Basic vector analyses
 
-  * In QGIS: point sampling (Point Sampling Tool), dissolve, buffer, overlay, attribute management, etc.
-  * In PostGIS: running modified template queries
+  * in QGIS: point sampling (Point Sampling Tool), dissolve, buffer, overlay, attribute management, etc.
+  * in PostGIS: running modified template queries
 
 * Raster data analysis
 
   * using the GRASS plugin [DB hopefully available; support uncertain]
-  * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
-  * (Distance analyses?)
-  * Reclassification of rasters, map algebra
-  * Zonal statistics
+  * geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
 
 Printing
 ----------
@@ -89,17 +86,20 @@ Advanced Course
 
 * Analysis
 
+  * various backends available
   * raster
   
     * using the GRASS plugin [DB hopefully available; support uncertain]
     * Geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
     * (Distance analyses?)
-    * Reclassification of rasters, map algebra
+    * reclassification of rasters, map algebra
     * Zonal statistics
     
   * use R within Processing [please provide sample scripts and data]
-  
   * modelling through graphical interface and command line
+
+PostGIS
+--------
 
 Aimed at those who need to learn how to use a geodatabase of complex geographic data (do not focus on database setup and management). The course covers the use of PostGIS’ many database functions that allow for complex geoprocessing to be carried out within the database and displayed in real-time. It is suggested to have basic knowledge of the SQL language.
 
@@ -116,10 +116,17 @@ Aimed at those who need to learn how to use a geodatabase of complex geographic 
 * PostGIS rasters
 * Topology support (just mention)
 
+Web
+----
+
 * Data publishing
 
   * QGIS web server interface (OWS) [QGIS Server available]
-  * Simple interactive maps on the web (*qgis2leaf* plugin?) 
+  * simple interactive maps on the web (*qgis2leaf* plugin?)
+  * mention LizMap
+
+Python
+-------
 
 * Interacting with PostGIS using a simple Python-plugin
 

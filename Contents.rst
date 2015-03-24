@@ -96,6 +96,8 @@ Advanced Course
     * (Distance analyses?)
     * Reclassification of rasters, map algebra
     * Zonal statistics
+    
+  * use R within Processing [please provide sample scripts and data]
   
   * modelling through graphical interface and command line
 

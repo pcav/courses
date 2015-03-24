@@ -76,6 +76,7 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
 
 Printing
 ----------
+
 * Simple and Advanced layouts/printing [samples available?]
 
   * Atlas
@@ -83,6 +84,8 @@ Printing
 
 Advanced Course
 =========================================================
+
+* Duration: 2 days
 
 Aimed at those who need to learn how to use a geodatabase of complex geographic data (do not focus on database setup and management). The course covers the use of PostGIS’ many database functions that allow for complex geoprocessing to be carried out within the database and displayed in real-time. It is suggested to have basic knowledge of the SQL language.
 

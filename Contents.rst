@@ -54,7 +54,7 @@ Basic QGIS course
   * properties and theming
   * Coordinate reference systems management and mosaics
   * conversion between rasters and vectors?
-  * Georeferencing (please provide local data?) [not enough time?]
+  * Georeferencing (just mention the possibility)
 
 Analysis
 ----------------

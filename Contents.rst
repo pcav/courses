@@ -13,6 +13,7 @@ Basic QGIS course
   * properties
   * import/export
   * conversion between formats (here esp. add Comma Delimited Text, PostGIS layers [Connections to PostGIS databases will be available ``Import_QGIS_Settings.bat``] and data from ``R:\GeoSpatialData``)
+  * create single users for database access
 
 * Projections handling and conversion between CRS; local CRSs [info form locals]
 * Vector theming (Symbology?) and labels

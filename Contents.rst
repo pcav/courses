@@ -7,16 +7,27 @@ Basic QGIS course
   * interface, customization
   * legend, browser, overview, other components
   * resources: website, mailing lists
-  
+  * the custom installer: how and why
+
 * Plugins management
 * Vector data
 
   * properties
   * import/export
-  * conversion between formats (here esp. add Comma Delimited Text, PostGIS layers [#Connections to PostGIS databases will be available ``Import_QGIS_Settings.bat``] and #data from ``R:\GeoSpatialData``)
-  * #create single users for database access
+  * conversion between formats (here esp. add Comma Delimited Text
+  * turn a table into a geographic layer
+  * PostGIS layers [#Connections to PostGIS databases available and #data from ``R:\GeoSpatialData``)
+* How to use GPS units in QGIS
 
-* Projections handling and conversion between CRS; local CRSs [#info form locals]
+  * convert data (”waypoints”, ”tracks”, ”routes”) from GPS to GPX
+  * add GPX
+  * project GPS data (WGS84) to UTM (EPSG:25833)
+  * convert data (”points”, ”lines”) from GIS to GPS (GPX)
+  * save data on GPS unit
+  * add background maps (from AR5, N50… + naturbase…) to GPS unit
+  * #single users + schema available for database access
+
+* Projections handling and conversion between CRS; local CRSs [#25833, see wiki page]
 * Vector theming, symbology and labels
 
   * manually (classified, gradual, random)
@@ -25,18 +36,9 @@ Basic QGIS course
 * Tables of attributes
 
   * basic SQL (for feature selection)
-  * turn a table into a geographic layer
 
 * Actions
-* Usage of template projects [#check the available ``Import_QGIS_Settings.bat`` with refinements]
-* How to use GPS units in QGIS
-
-  * convert data (”waypoints”, ”tracks”, ”routes”) from GPS to GPX
-  * cdd GPX
-  * project GPS data (WGS84) to UTM (EPSG:25833)
-  * convert data (”points”, ”lines”) from GIS to GPS (GPX)
-  * save data on GPS unit
-  * add background maps (from AR5, N50… + naturbase…) to GPS unit
+* Usage of template projects
 
 * Vector digitizing
 
@@ -47,7 +49,7 @@ Basic QGIS course
 * Data from the web
 
   * discover data (*MetaSearch*: **GeoNorge**)
-  * add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps [#list available through ``Import_QGIS_Settings.bat``]
+  * add layers from map servers: WMS, WFS, WFS-T, CSW, WPS, Google Maps [#list available through the custom installer]
 
 * Raster data
 
@@ -55,6 +57,19 @@ Basic QGIS course
   * coordinate reference systems management and mosaics
   * conversion between rasters and vectors?
   * georeferencing (just mention the possibility)
+
+* Some useful plugins
+
+  * Mirror map
+  * 
+
+Printing
+----------
+
+* Simple and Advanced layouts/printing [#see templates]
+
+  * Atlas
+  * how to export (best formats)
 
 Analysis
 ----------------
@@ -70,14 +85,6 @@ Learn how to do raster and vector GIS analysis in QGIS. Just briefly mention the
 
   * using the GRASS plugin [#DB hopefully available; support uncertain]
   * geomorphology analyses: digital terrain modules, contour, slope, aspect, shaded maps
-
-Printing
-----------
-
-* Simple and Advanced layouts/printing [#samples available?]
-
-  * Atlas
-  * how to export (best formats)
 
 Advanced Course
 =========================================================
